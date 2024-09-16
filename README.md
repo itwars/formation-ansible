@@ -18,3 +18,9 @@ To bootstrap this tutorial, I wrote and [init script](https://github.com/itwars/
 - Ssh key injection in each Docker instance using ssh-copy-id (password will be ask: **toor**)
 - Ansible hosts inventory creation
 
+To connect using ssh, get ip address from host file, then:
+
+```
+ssh -i id_rsa root@ip_address
+```
+
